@@ -46,6 +46,9 @@ gem "figaro"
 # connect AWS with Carrierwave
 gem 'fog', '~> 1.3.1'
 
+# resize images
+gem 'mini_magick'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
