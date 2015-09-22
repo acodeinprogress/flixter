@@ -44,7 +44,7 @@ gem 'carrierwave'
 gem "figaro"
 
 # connect AWS with Carrierwave
-gem 'fog', '~> 1.3.1'
+gem 'carrierwave-aws'
 
 # resize images
 gem 'mini_magick'
