@@ -37,6 +37,15 @@ gem 'devise'
 # Form creation
 gem 'simple_form'
 
+# Photo uploads
+gem 'carrierwave'
+
+# Password storage
+gem "figaro"
+
+# connect AWS with Carrierwave
+gem 'fog', '~> 1.3.1'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
