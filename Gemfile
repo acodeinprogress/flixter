@@ -52,6 +52,9 @@ gem 'mini_magick'
 # Accept payments
 gem 'stripe'
 
+# Order lessons and sections
+gem 'ranked-model'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
