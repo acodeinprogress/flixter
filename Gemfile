@@ -43,11 +43,14 @@ gem 'carrierwave'
 # Password storage
 gem "figaro"
 
-# connect AWS with Carrierwave
+# Connect AWS with Carrierwave
 gem 'carrierwave-aws'
 
-# resize images
+# Resize images
 gem 'mini_magick'
+
+# Accept payments
+gem 'stripe'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
