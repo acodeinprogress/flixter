@@ -55,6 +55,9 @@ gem 'stripe'
 # Order lessons and sections
 gem 'ranked-model'
 
+# draggable list
+gem 'jquery-ui-rails'
+
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
